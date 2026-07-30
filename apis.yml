@@ -1,22 +1,67 @@
 aid: poetic
 name: Poetic
-description: 'Poetic is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Poetic is an enterprise AI automation company whose platform learns an
+  organization's rules and procedures and then executes end-to-end business
+  processes with high precision and compliance. Marketed as "turn your business
+  into software," Poetic ingests procedures, training materials, and expert
+  feedback to build self-healing automations that adapt when underlying systems
+  change, targeting long, multi-step workflows such as fraud detection, KYC, and
+  dispute resolution. The company emphasizes enterprise-grade security with zero
+  data retention (processing data in-transit only) and states SOC 2 Type II, PCI
+  DSS, HIPAA, and GDPR compliance, and cites customers including AIG, SoFi, and
+  Chime. Poetic is an early-stage, Kleiner Perkins-backed AI company; as of this
+  profile it publishes no public API, developer documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/poetic/refs/heads/main/apis.yml
 x-type: company
 x-source: kleiner-perkins-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://poetic.com/og.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Automation
+- Enterprise
+- Agents
+- Workflow
+- Compliance
+- Fraud
 apis: []
+common:
+- type: DomainSecurity
+  url: security/poetic-domain-security.yml
+- type: Website
+  url: https://poetic.com/
+- type: Product
+  url: https://poetic.com/product
+- type: Careers
+  url: https://poetic.com/careers
+- type: PrivacyPolicy
+  url: https://poetic.com/privacy
+- type: TermsOfService
+  url: https://poetic.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
